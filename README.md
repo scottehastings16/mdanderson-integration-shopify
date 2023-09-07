@@ -26,14 +26,14 @@ Copy the following JSON object into the JSON array contained in the [Config/sett
         "type": "text",
         "id": "tealium_account",
         "label": "Account",
-        "info": "Name of your acount"
+        "info": "mdanderson"
       },
       {
         "type": "text",
         "id": "tealium_profile",
         "label": "Profile",
-        "default": "main",
-        "info": "Which profile to load your tags from",
+        "default": "childrensart.org",
+        "info": "childrensart.org",
         "placeholder": "main"
       },
       {
@@ -41,14 +41,14 @@ Copy the following JSON object into the JSON array contained in the [Config/sett
         "id": "tealium_environment",
         "label": "Environment",
         "default": "prod",
-        "info": "Which environment to load your tags from",
+        "info": "prod",
         "placeholder": "prod"
       },
       {
         "type": "checkbox",
         "id": "tealium_enabled",
         "label": "Enable",
-        "default": false,
+        "default": true,
         "info": "Check to enable Tealium"
       }
     ]
