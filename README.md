@@ -62,7 +62,7 @@ Drop the files from the **Snippets** folder of this GitHub repository into the *
 
 See [https://help.shopify.com/themes/development/templates#snippets](https://help.shopify.com/themes/development/templates#snippets) for information on theme snippets.
 
-#### 3. Templates
+#### 3. Templates (Azhar & Team, this step may not be required for out implementation. What we are most concerned about is collecting product information on the Checkout start page, and checkout completion page.)
 
 On each page, you will need to include the correct snippet corresponding to the data layer of that page. To do that, go to the page's [template](https://help.shopify.com/themes/development/templates), or possibly the section for certain pages such as the index ("home") page, and insert the relevant snippet. For example, the **product.liquid** template file in the default **Debut** theme that Shopify provides would look like the following, where the **product_udo** snippet has been added at the top of the file.
 
