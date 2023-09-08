@@ -62,7 +62,7 @@ Drop the files from the **Snippets** folder of this GitHub repository into the *
 
 See [https://help.shopify.com/themes/development/templates#snippets](https://help.shopify.com/themes/development/templates#snippets) for information on theme snippets.
 
-#### 3. Templates (Azhar & Team, this step may not be required for out implementation. What we are most concerned about is collecting product information on the Checkout start page, and checkout completion page.)
+#### 3. Templates (Azhar & Team, this step may not be required for our implementation. What we are most concerned about is collecting product information on the Checkout start page, and checkout completion page.)
 
 On each page, you will need to include the correct snippet corresponding to the data layer of that page. To do that, go to the page's [template](https://help.shopify.com/themes/development/templates), or possibly the section for certain pages such as the index ("home") page, and insert the relevant snippet. For example, the **product.liquid** template file in the default **Debut** theme that Shopify provides would look like the following, where the **product_udo** snippet has been added at the top of the file.
 
@@ -162,7 +162,9 @@ The order status page works differently than the rest of the pages. Unlike other
     }
   </script>
 
-  <!-- Loading script asynchronously -->
+  <!-- Loading script asynchronously The expected string value for 'variable a' in tbhis function is **'//tags.tiqcdn.com/utag/mdanderson/childrensart.org/prod/utag.js'** -->
+<script> window.utag_cfg_ovrd = window.utag_cfg_ovrd || {}; </script>
+window.utag_cfg_ovrd.noview = true
   <script type="text/javascript">
       (function(a,b,c,d){
       a='//tags.tiqcdn.com/utag/{{ settings.tealium_account }}/{{ settings.tealium_profile }}/{{ settings.tealium_environment }}/utag.js';
