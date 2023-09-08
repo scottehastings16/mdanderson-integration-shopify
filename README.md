@@ -97,6 +97,7 @@ The order status page works differently than the rest of the pages. Unlike other
   > 2. Find the Order processing section. Near the bottom of this section you will find Additional content & scripts.
 
   And then you'll need to add the following code. Before you begin, make sure to set `tealium_enabled` to `true`, and to set the `tealium_account`, `tealium_profile`, and `tealium_environment` variables to match what you configure in the settings.
+  The expected string value for 'variable a' on line 168 is **'//tags.tiqcdn.com/utag/mdanderson/childrensart.org/prod/utag.js'**
 
   ```
   {% assign tealium_enabled = false %}
