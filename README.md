@@ -162,9 +162,7 @@ The order status page works differently than the rest of the pages. Unlike other
     }
   </script>
 
-  <!-- Loading script asynchronously The expected string value for 'variable a' in tbhis function is **'//tags.tiqcdn.com/utag/mdanderson/childrensart.org/prod/utag.js'** -->
-<script> window.utag_cfg_ovrd = window.utag_cfg_ovrd || {}; </script>
-window.utag_cfg_ovrd.noview = true
+  <!-- Loading script asynchronously The expected string value for 'variable a' in this function is **'//tags.tiqcdn.com/utag/mdanderson/childrensart.org/prod/utag.js'** -->
   <script type="text/javascript">
       (function(a,b,c,d){
       a='//tags.tiqcdn.com/utag/{{ settings.tealium_account }}/{{ settings.tealium_profile }}/{{ settings.tealium_environment }}/utag.js';
