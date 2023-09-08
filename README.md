@@ -108,6 +108,7 @@ The order status page works differently than the rest of the pages. Unlike other
   {% if tealium_enabled and tealium_account != "" and tealium_profile != "" and tealium_environment != "" %}
   <script type="text/javascript">
     var utag_data = {
+      "event_type":"cap_purchase",
       "site_section": "order",
       "product_id": [
       {% for line_item in checkout.line_items %}
